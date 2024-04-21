@@ -1,0 +1,194 @@
+.feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+@media(max-width: 767px) {
+  .feature-card-feature-card {
+    flex-direction: row;
+  }
+  .feature-card-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card-container {
+    flex-direction: column;
+  }
+}
+
+.feature-card3-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card3-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media(max-width: 767px) {
+  .feature-card3-feature-card {
+    flex-direction: row;
+  }
+  .feature-card3-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card3-container {
+    flex-direction: column;
+  }
+}
+
+.feature-card2-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card {
+    flex-direction: row;
+  }
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+
+.feature-card31-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card31-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media(max-width: 767px) {
+  .feature-card31-feature-card {
+    flex-direction: row;
+  }
+  .feature-card31-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card31-container {
+    flex-direction: column;
+  }
+}
+
+.feature-card311-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card311-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media(max-width: 767px) {
+  .feature-card311-feature-card {
+    flex-direction: row;
+  }
+  .feature-card311-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card311-container {
+    flex-direction: column;
+  }
+}
+
+.features-features {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-a);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.features-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.features-features-heading {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.features-features-sub-heading {
+  font-size: 18px;
+  text-align: center;
+}
+.features-container1 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-oneandhalfunits);
+  grid-template-columns: 1fr 1fr;
+}
+.features-feature-card4 {
+  text-decoration: none;
+}
+
+@media(max-width: 991px) {
+  .features-features-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .features-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .features-features-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .features-container1 {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 479px) {
+  .features-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

@@ -1,0 +1,90 @@
+.t-shirt-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #73d1da;
+}
+.t-shirt-text {
+  font-size: 3.5em;
+  padding-top: 50px;
+}
+.t-shirt-text1 {
+  width: 999px;
+  padding-top: 40px;
+}
+.t-shirt-text2 {
+  width: 980px;
+  height: 75px;
+  padding-top: var(--dl-space-space-unit);
+  text-transform: lowercase;
+}
+.t-shirt-image {
+  top: 334px;
+  right: 76px;
+  width: 199px;
+  height: 273px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 36px;
+}
+.t-shirt-image1 {
+  top: 333px;
+  left: 703px;
+  width: 195px;
+  height: 278px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 36px;
+}
+.t-shirt-image2 {
+  top: 355px;
+  left: 332px;
+  width: 221px;
+  height: 261px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 36px;
+}
+.t-shirt-link {
+  top: 632px;
+  left: 263px;
+  position: absolute;
+  font-size: 30px;
+  text-decoration: none;
+}
+.t-shirt-image3 {
+  top: 352px;
+  left: 114px;
+  width: 207px;
+  height: 262px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-start;
+  object-fit: cover;
+  border-radius: 36px;
+}
+@media(max-width: 767px) {
+  .t-shirt-text1 {
+    width: 766px;
+  }
+  .t-shirt-text2 {
+    width: 766px;
+  }
+}
+@media(max-width: 479px) {
+  .t-shirt-text {
+    align-self: center;
+  }
+  .t-shirt-text1 {
+    width: 478px;
+  }
+  .t-shirt-text2 {
+    width: 478px;
+  }
+}

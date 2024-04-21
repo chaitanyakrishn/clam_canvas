@@ -1,0 +1,846 @@
+.feature-card2-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card2-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media(max-width: 767px) {
+  .feature-card2-feature-card {
+    flex-direction: row;
+  }
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card2-container {
+    flex-direction: column;
+  }
+}
+
+.question13-container {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.question13-text {
+  font-weight: 700;
+}
+
+.outline-button-container {
+  display: flex;
+  position: relative;
+}
+.outline-button-button {
+  color: var(--dl-color-gray-black);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-100);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+}
+
+.place-card-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.place-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.place-card-container1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+}
+.place-card-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.place-card-text1 {
+  font-size: 12px;
+  max-width: 250px;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 767px) {
+  .place-card-container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .place-card-container {
+    width: 300px;
+  }
+}
+
+.about-the-website-page-crators-and-their-photos-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-header {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.about-the-website-page-crators-and-their-photos-navbar-interactive {
+  height: 100px;
+}
+.about-the-website-page-crators-and-their-photos-logo {
+  height: var(--dl-size-size-xsmall);
+  font-style: normal;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.about-the-website-page-crators-and-their-photos-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-nav12 {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.about-the-website-page-crators-and-their-photos-nav2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-the-website-page-crators-and-their-photos-nav3 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-nav4 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-nav5 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-login {
+  margin-right: 32px;
+  text-decoration: none;
+}
+.about-the-website-page-crators-and-their-photos-burger-menu {
+  display: none;
+}
+.about-the-website-page-crators-and-their-photos-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.about-the-website-page-crators-and-their-photos-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-icon02 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.about-the-website-page-crators-and-their-photos-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-nav1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-nav21 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-nav31 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-nav41 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-nav51 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.about-the-website-page-crators-and-their-photos-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-container01 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-hero-heading {
+  max-width: 800px;
+  text-align: center;
+}
+.about-the-website-page-crators-and-their-photos-hero-sub-heading {
+  font-size: 18px;
+  text-align: center;
+}
+.about-the-website-page-crators-and-their-photos-btn-group {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.about-the-website-page-crators-and-their-photos-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-gallery1 {
+  width: 100%;
+  height: 1200px;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a b b" "a b b" "a c d" "a c d"  "e e d" "e e f" "e e f";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.about-the-website-page-crators-and-their-photos-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  grid-area: a;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1606103836293-0a063ee20566?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0MHw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container02:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-container03 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: b;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1511721285502-9f81e79be874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0MXw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container04:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-container05 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: c;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1561484930-291119937d44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0MXw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container06:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: d;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1528605248644-14dd04022da1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0MXw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container07:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: e;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1611858977757-8f7cdc084d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0Mnw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container08:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: f;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1525022404438-91321710652d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxMDkzNzE0Mnw&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+}
+.about-the-website-page-crators-and-their-photos-container09:hover {
+  transform: scale(0.98);
+}
+.about-the-website-page-crators-and-their-photos-features {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-features1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-container10 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-features-heading {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-features-sub-heading {
+  font-size: 18px;
+  text-align: center;
+}
+.about-the-website-page-crators-and-their-photos-container11 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-oneandhalfunits);
+  grid-template-columns: 1fr 1fr;
+}
+.about-the-website-page-crators-and-their-photos-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-banner-heading {
+  text-align: center;
+}
+.about-the-website-page-crators-and-their-photos-banner-sub-heading {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.about-the-website-page-crators-and-their-photos-faq {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-the-website-page-crators-and-their-photos-faq1 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.about-the-website-page-crators-and-their-photos-container12 {
+  display: flex;
+  max-width: 35%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-text50 {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-text51 {
+  text-align: left;
+}
+.about-the-website-page-crators-and-their-photos-container13 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-footer {
+  width: 1093px;
+  height: 1403px;
+}
+.about-the-website-page-crators-and-their-photos-top-part {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-text55 {
+  color: var(--dl-color-gray-500);
+}
+.about-the-website-page-crators-and-their-photos-cards-container {
+  width: 100%;
+  display: flex;
+  grid-gap: var(--dl-space-space-doubleunit);
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-footer1 {
+  width: 100%;
+  height: 563px;
+}
+.about-the-website-page-crators-and-their-photos-top-part1 {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-links-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-the-website-page-crators-and-their-photos-product-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-text56 {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-text57 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-text58 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-navigate-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-text60 {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-text61 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-text62 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-contact-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-the-website-page-crators-and-their-photos-text64 {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-text65 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-the-website-page-crators-and-their-photos-subscribe-container {
+  flex: 0 0 auto;
+  width: 35%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-the-website-page-crators-and-their-photos-text83 {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.about-the-website-page-crators-and-their-photos-textinput {
+  outline: none;
+  align-self: stretch;
+  padding-top: 4px;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding-left: 0px;
+  border-radius: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-bottom: 4px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+@media(max-width: 991px) {
+  .about-the-website-page-crators-and-their-photos-hero1 {
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-container01 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .about-the-website-page-crators-and-their-photos-hero-heading {
+    text-align: center;
+  }
+  .about-the-website-page-crators-and-their-photos-hero-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .about-the-website-page-crators-and-their-photos-gallery1 {
+    grid-gap: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-features-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .about-the-website-page-crators-and-their-photos-banner-sub-heading {
+    max-width: 100%;
+  }
+  .about-the-website-page-crators-and-their-photos-text51 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .about-the-website-page-crators-and-their-photos-cards-container {
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .about-the-website-page-crators-and-their-photos-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-desktop-menu {
+    display: none;
+  }
+  .about-the-website-page-crators-and-their-photos-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-the-website-page-crators-and-their-photos-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-nav21 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-nav31 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-nav41 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-nav51 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-hero1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-hero-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-gallery1 {
+    height: auto;
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-container03 {
+    height: 220px;
+  }
+  .about-the-website-page-crators-and-their-photos-container05 {
+    height: 220px;
+  }
+  .about-the-website-page-crators-and-their-photos-features1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-features-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-container11 {
+    grid-template-columns: 1fr;
+  }
+  .about-the-website-page-crators-and-their-photos-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-banner-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-faq1 {
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-container12 {
+    max-width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-the-website-page-crators-and-their-photos-text51 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-top-part {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-the-website-page-crators-and-their-photos-main {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-top-part1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-the-website-page-crators-and-their-photos-links-container {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+    flex-direction: row;
+  }
+  .about-the-website-page-crators-and-their-photos-subscribe-container {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .about-the-website-page-crators-and-their-photos-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-mobile-menu1 {
+    padding: 16px;
+  }
+  .about-the-website-page-crators-and-their-photos-hero1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-container01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-btn-group {
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-gallery1 {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .about-the-website-page-crators-and-their-photos-features1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-banner1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-the-website-page-crators-and-their-photos-top-part {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-top-part1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-the-website-page-crators-and-their-photos-links-container {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .about-the-website-page-crators-and-their-photos-contact-container {
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+}
